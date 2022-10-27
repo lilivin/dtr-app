@@ -1,0 +1,35 @@
+.book-container{
+    &__header{
+        font-size: 30px;
+        margin: 20px 10px 0;
+    }
+    &__description{
+        margin: 5px 10px 10px;
+        font-size: 14px;
+        color: #aaa;
+    }
+    &__image{
+        width: 100%;
+    }
+    &__text{
+        margin: 15px 10px 20px;
+        font-size: 14px;
+        color: #aaa;
+    }
+    &__btn{
+        margin: 10px auto 30px;
+        width: 142px;
+        display: block;
+        box-shadow: 0px 0px 19px -7px rgba(66, 68, 90, 1);
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: #fff;
+        background: rgb(255, 149, 0);
+        font-weight: 700;
+        text-decoration: none;
+    }
+}
+
+.botton{
+    test: test !important
+}

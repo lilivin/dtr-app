@@ -1,0 +1,66 @@
+.bargain-container{
+    display: flex;
+    overflow-x: scroll;
+    padding: 15px 0;
+    &__header{
+        font-size: 30px;
+        margin: 20px 10px 0;
+    }
+    &__description{
+        margin: 5px 10px 10px;
+        font-size: 14px;
+        color: #aaa;
+    }
+}
+
+.bargain{
+    width: 300px;
+    margin: 0 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 19px -7px rgba(66, 68, 90, 1);
+    padding: 15px 10px 0;
+    &__time{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__time-details{
+        margin: 10px 0;
+        p{
+            font-weight: 700;
+            margin: 0;
+        }
+        span{
+            color: #aaa;
+            font-size: 14px;
+        }
+        &:nth-of-type(2){
+            text-align: right;
+        }
+    }
+    &__price{
+        border-top: 1px dashed #aaa;
+        padding: 15px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__price-company{
+        color: #aaa;
+        img{
+            height: 20px;
+        }
+    }
+    &__price-amount{
+        font-weight: 700;
+    }
+    &__btn{
+        display: block;
+        padding: 10px 0;
+        margin: 0;
+        border-top: 1px solid #aaa;
+        width: 100%;
+        text-align: center;
+        color: #000;
+        text-decoration: none;
+        font-weight: 700;
+    }
+}

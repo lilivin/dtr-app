@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import AboutMeSection from './components/aboutMeSection/aboutMeSection.tsx';
+import PostsInstagram from './components/postsInstagram/postsInstagram.tsx';
+import TripsContainer from './components/tripsContainer/tripsContainer.tsx';
+import BargainContainer from './components/bargainContainer/bargainContainer.tsx';
+import HolidayContainer from './components/holidaysContainer/holidaysContainer.tsx';
+import BookContainer from './components/bookContainer/bookContainer.tsx';
+import ContactContainer from './components/contactContainer/contactContainer.tsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="about-me">
+      <AboutMeSection />
+      <PostsInstagram />
+      <BookContainer />
+      <TripsContainer />
+      <HolidayContainer />
+      <BargainContainer />
+      <ContactContainer />
     </div>
   );
 }

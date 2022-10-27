@@ -1,0 +1,19 @@
+.contact-container{
+    &__header{
+        font-size: 30px;
+        margin: 20px 10px 0;
+    }
+    &__description{
+        margin: 5px 10px 10px;
+        font-size: 14px;
+        color: #aaa;
+    }
+    &__ways{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 30px 40px 10px;
+        img{
+            width: 40px;
+        }
+    }
+}
